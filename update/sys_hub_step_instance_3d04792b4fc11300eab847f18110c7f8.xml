@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="LCHH Record Lookup">f592f1e74fc11300eab847f18110c766</action>
+        <cid>e69d77ae-0344-478e-9291-c6bf15fe064c</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:53:27</sys_created_on>
+        <sys_id>3d04792b4fc11300eab847f18110c7f8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_step_instance_3d04792b4fc11300eab847f18110c7f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3d04792b4fc11300eab847f18110c7f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3d04792b4fc11300eab847f18110c7f8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:53:27</sys_created_on>
+        <sys_id>b104b92b4fc11300eab847f18110c701</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:18</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  var triggerGr = inputs.triggerGr;
+
+  gs.info('LCHH Record Lookup: ' + inputs.triggerGr.sys_id);
+
+  var matchList = [];
+
+  var lookup = new GlideRecord('x_197877_lchh_lookup');
+  lookup.query();
+
+  while (lookup.next()) {
+    var match = GlideFilter.checkRecord(triggerGr, lookup.getValue('condition'));
+
+    if (match) {
+		matchList.push(lookup.getValue('sys_id'));
+      gs.info('Match: YES ' + lookup.getDisplayValue() + ' condition=' + lookup.condition.getDisplayValue());
+    } else {
+      gs.info('Match: NO ' + lookup.getDisplayValue() + ' condition=' + lookup.condition.getDisplayValue());
+    }
+  }
+  
+  var matchListStr = matchList.join(',');
+  
+  outputs.list = matchListStr;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d04792b4fc11300eab847f18110c7f8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>3d04792b4fc11300eab847f18110c7f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:53:27</sys_created_on>
+        <sys_id>f904b92b4fc11300eab847f18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 20:53:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>triggerGr</field>
+        <id>3d04792b4fc11300eab847f18110c7f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:07:28</sys_created_on>
+        <sys_id>cf37b9ab4fc11300eab847f18110c78d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:07:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_3d04792b4fc11300eab847f18110c7f8</table>
+        <value>{{action.ah_record}}</value>
+    </sys_element_mapping>
+</record_update>

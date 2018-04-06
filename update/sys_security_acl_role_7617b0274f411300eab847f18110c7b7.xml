@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 16:27:18</sys_created_on>
+        <sys_id>7617b0274f411300eab847f18110c7b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_197877_lchh_trigger.x_197877_lchh.user</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_security_acl display_value="x_197877_lchh_trigger">7217b0274f411300eab847f18110c7b4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7617b0274f411300eab847f18110c7b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 16:27:18</sys_updated_on>
+        <sys_user_role display_value="x_197877_lchh.user" name="x_197877_lchh.user">64fe642f4f011300eab847f18110c72f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

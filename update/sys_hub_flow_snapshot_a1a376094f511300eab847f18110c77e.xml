@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created_1.current.button","label":"Trigger➛Trigger Record➛Button","reference":"x_197877_lchh_button","reference_display":"Button","type":"reference","base_type":"reference","parent_table_name":"x_197877_lchh_trigger","column_name":"button"},{"name":"16b56b55-5f06-40e2-b30a-6a7b28b04b10.error_code","label":"2.2➛Error Code","type":"string","base_type":"string"},{"name":"16b56b55-5f06-40e2-b30a-6a7b28b04b10.error_message","label":"2.2➛Error Message","type":"string","base_type":"string"},{"name":"16b56b55-5f06-40e2-b30a-6a7b28b04b10.parameter","label":"2.2➛Response Body","type":"string","base_type":"string"},{"name":"5f48b81d-a47d-4605-928b-db3f67a5f408.table","label":"1➛Table","reference_display":"Table"},{"name":"5f48b81d-a47d-4605-928b-db3f67a5f408.count","label":"1➛Count","reference_display":"Count"},{"name":"10178323-d08b-4403-9f6f-d864eec34f2f.item","label":"2➛Lookup Record","reference":"x_197877_lchh_lookup","reference_display":"Lookup Record"},{"name":"10178323-d08b-4403-9f6f-d864eec34f2f.item.name","label":"2➛Lookup Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_197877_lchh_lookup","column_name":"name"},{"name":"Created_1.current","label":"Trigger➛Trigger Record","reference":"x_197877_lchh_trigger","reference_display":"Trigger","type":"reference","base_type":"reference"},{"name":"5f48b81d-a47d-4605-928b-db3f67a5f408.records","label":"1➛Lookup Records","reference":"x_197877_lchh_lookup","reference_display":"Lookup Records"},{"name":"10178323-d08b-4403-9f6f-d864eec34f2f.item.target","label":"2➛Lookup Records Record➛Target","reference":"x_197877_lchh_target","reference_display":"Target","type":"reference","base_type":"reference","parent_table_name":"x_197877_lchh_lookup","column_name":"target"}]</label_cache>
+        <name>LCHH REST Test</name>
+        <parent_flow display_value="LCHH REST Test">933435674fc11300eab847f18110c762</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:22:19</sys_created_on>
+        <sys_id>a1a376094f511300eab847f18110c77e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LCHH REST Test</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_a1a376094f511300eab847f18110c77e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:22:19</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

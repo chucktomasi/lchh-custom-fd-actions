@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_record}}","label":"action➛Record","type":"action","ref":"x_197877_lchh_trigger"},{"name":"{{step[e69d77ae-0344-478e-9291-c6bf15fe064c].l}}","label":"step➛Script step➛l","type":"step","ref":""},{"name":"{{step[e69d77ae-0344-478e-9291-c6bf15fe064c].li}}","label":"step➛Script step➛li","type":"step","ref":""},{"name":"{{step[e69d77ae-0344-478e-9291-c6bf15fe064c].lis}}","label":"step➛Script step➛lis","type":"step","ref":""},{"name":"{{step[e69d77ae-0344-478e-9291-c6bf15fe064c].list}}","label":"step➛Script step➛list","type":"step","ref":""},{"name":"{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].count}}","label":"step➛Look Up Records step➛Count","type":"step","ref":""},{"name":"{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].records}}","label":"step➛Look Up Records step➛Lookup records","type":"step","ref":""},{"name":"{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].table_name}}","label":"step➛Look Up Records step➛Lookup Table","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <name>LCHH Record Lookup</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:47:11</sys_created_on>
+        <sys_id>f592f1e74fc11300eab847f18110c766</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>LCHH Record Lookup</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f592f1e74fc11300eab847f18110c766</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:17:13</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f592f1e74fc11300eab847f18110c766"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f592f1e74fc11300eab847f18110c766"/>
+    <sys_element_mapping action="delete_multiple" query="id=f592f1e74fc11300eab847f18110c766"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>count</field>
+        <id>f592f1e74fc11300eab847f18110c766</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:17:13</sys_created_on>
+        <sys_id>7179312f4fc11300eab847f18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:17:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f592f1e74fc11300eab847f18110c766</table>
+        <value>{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>records</field>
+        <id>f592f1e74fc11300eab847f18110c766</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:17:13</sys_created_on>
+        <sys_id>3579312f4fc11300eab847f18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:17:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f592f1e74fc11300eab847f18110c766</table>
+        <value>{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f592f1e74fc11300eab847f18110c766</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:17:13</sys_created_on>
+        <sys_id>f579312f4fc11300eab847f18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:17:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f592f1e74fc11300eab847f18110c766</table>
+        <value>{{step[a6e13099-0e9d-4154-bd70-b90aff212df1].table_name}}</value>
+    </sys_element_mapping>
+</record_update>

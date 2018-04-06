@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Target" max_length="40" name="x_197877_lchh_target" type="collection">
+        <element label="Host" max_length="255" name="host" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Resource path" max_length="255" name="resource_path" type="string"/>
+    </element>
+</database>

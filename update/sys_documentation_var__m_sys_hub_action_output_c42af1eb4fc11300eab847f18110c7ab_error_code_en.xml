@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="error_code" label="Error Code" language="en" table="var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>error_code</element>
+            <help/>
+            <hint/>
+            <label>Error Code</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab</name>
+            <plural>Error Code</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-30 21:29:29</sys_created_on>
+            <sys_id>a14c796f4fc11300eab847f18110c759</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Error Code</sys_name>
+            <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab_error_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-30 21:29:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

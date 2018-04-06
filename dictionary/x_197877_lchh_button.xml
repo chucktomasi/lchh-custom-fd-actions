@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Button" max_length="40" name="x_197877_lchh_button" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="SN" max_length="40" name="sn" type="string"/>
+    </element>
+</database>

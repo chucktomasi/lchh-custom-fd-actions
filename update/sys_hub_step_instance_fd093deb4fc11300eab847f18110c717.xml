@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="LCHH Record Lookup">f592f1e74fc11300eab847f18110c766</action>
+        <cid>a6e13099-0e9d-4154-bd70-b90aff212df1</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Records step</label>
+        <order>2</order>
+        <outputs/>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:15:18</sys_created_on>
+        <sys_id>fd093deb4fc11300eab847f18110c717</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Look Up Records step</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_step_instance_fd093deb4fc11300eab847f18110c717</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fd093deb4fc11300eab847f18110c717"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fd093deb4fc11300eab847f18110c717</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:15:19</sys_created_on>
+        <sys_id>75093deb4fc11300eab847f18110c720</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:19</sys_updated_on>
+        <value>x_197877_lchh_lookup</value>
+        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fd093deb4fc11300eab847f18110c717"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fd093deb4fc11300eab847f18110c717</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:15:48</sys_created_on>
+        <sys_id>19297deb4fc11300eab847f18110c774</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value>sys_idIN{{step[e69d77ae-0344-478e-9291-c6bf15fe064c].list}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fd093deb4fc11300eab847f18110c717</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:15:19</sys_created_on>
+        <sys_id>f1093deb4fc11300eab847f18110c720</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="LCHH REST Test">933435674fc11300eab847f18110c762</flow>
+        <order>2.5</order>
+        <parent_ui_id>10178323-d08b-4403-9f6f-d864eec34f2f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:14:11</sys_created_on>
+        <sys_id>aac17ec54f511300eab847f18110c75b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_action_instance_aac17ec54f511300eab847f18110c75b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:30:09</sys_updated_on>
+        <ui_id>9fc3e9cf-aef4-400d-80e4-6008fc9210e7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aac17ec54f511300eab847f18110c75b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aac17ec54f511300eab847f18110c75b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:14:11</sys_created_on>
+        <sys_id>2ec17ec54f511300eab847f18110c75e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:14:11</sys_updated_on>
+        <value>x_197877_lchh_target_response</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aac17ec54f511300eab847f18110c75b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:14:11</sys_created_on>
+        <sys_id>6ac17ec54f511300eab847f18110c75e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:17:17</sys_updated_on>
+        <value/>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aac17ec54f511300eab847f18110c75b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aac17ec54f511300eab847f18110c75b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:14:11</sys_created_on>
+        <sys_id>26c17ec54f511300eab847f18110c75e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:14:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>aac17ec54f511300eab847f18110c75b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 17:14:11</sys_created_on>
+        <sys_id>e6c17ec54f511300eab847f18110c75e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 17:30:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>target=^error_code={{16b56b55-5f06-40e2-b30a-6a7b28b04b10.error_code}}^error_message={{16b56b55-5f06-40e2-b30a-6a7b28b04b10.error_message}}^response_body={{16b56b55-5f06-40e2-b30a-6a7b28b04b10.parameter}}</value>
+    </sys_element_mapping>
+</record_update>

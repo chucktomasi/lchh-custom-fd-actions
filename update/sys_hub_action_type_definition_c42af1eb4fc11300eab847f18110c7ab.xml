@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_record}}","label":"action➛Record","type":"action","ref":"x_197877_lchh_lookup"},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].ho}}","label":"step➛Script step➛ho","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].hos}}","label":"step➛Script step➛hos","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].host}}","label":"step➛Script step➛host","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].r}}","label":"step➛Script step➛r","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].re}}","label":"step➛Script step➛re","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].res}}","label":"step➛Script step➛res","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].reso}}","label":"step➛Script step➛reso","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resou}}","label":"step➛Script step➛resou","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resour}}","label":"step➛Script step➛resour","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resourc}}","label":"step➛Script step➛resourc","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource}}","label":"step➛Script step➛resource","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource_}}","label":"step➛Script step➛resource_","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource_p}}","label":"step➛Script step➛resource_p","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource_pa}}","label":"step➛Script step➛resource_pa","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource_pat}}","label":"step➛Script step➛resource_pat","type":"step","ref":""},{"name":"{{step[9f6b1828-d0a5-4c7a-9224-30727f40aaec].resource_path}}","label":"step➛Script step➛resource_path","type":"step","ref":""},{"name":"{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <name>IH REST TEST</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:20:06</sys_created_on>
+        <sys_id>c42af1eb4fc11300eab847f18110c7ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IH REST TEST</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c42af1eb4fc11300eab847f18110c7ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:29:29</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c42af1eb4fc11300eab847f18110c7ab"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c42af1eb4fc11300eab847f18110c7ab"/>
+    <sys_element_mapping action="delete_multiple" query="id=c42af1eb4fc11300eab847f18110c7ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>c42af1eb4fc11300eab847f18110c7ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:29:29</sys_created_on>
+        <sys_id>ed4c796f4fc11300eab847f18110c77e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:29:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab</table>
+        <value>{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>c42af1eb4fc11300eab847f18110c7ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:29:29</sys_created_on>
+        <sys_id>2d4c796f4fc11300eab847f18110c77e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:29:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab</table>
+        <value>{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>c42af1eb4fc11300eab847f18110c7ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 21:29:29</sys_created_on>
+        <sys_id>a14c796f4fc11300eab847f18110c77f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 21:29:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c42af1eb4fc11300eab847f18110c7ab</table>
+        <value>{{step[13fe10b0-baf8-4232-8ed9-f096e1b5d2b3].response_body}}</value>
+    </sys_element_mapping>
+</record_update>

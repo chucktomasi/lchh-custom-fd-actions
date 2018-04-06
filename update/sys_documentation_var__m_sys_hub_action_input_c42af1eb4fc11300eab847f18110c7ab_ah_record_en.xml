@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_record" label="Record" language="en" table="var__m_sys_hub_action_input_c42af1eb4fc11300eab847f18110c7ab">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_record</element>
+            <help/>
+            <hint/>
+            <label>Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c42af1eb4fc11300eab847f18110c7ab</name>
+            <plural>Record</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-30 21:20:59</sys_created_on>
+            <sys_id>cd5a392f4fc11300eab847f18110c7ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record</sys_name>
+            <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c42af1eb4fc11300eab847f18110c7ab_ah_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-30 21:20:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

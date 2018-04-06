@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Trigger" max_length="40" name="x_197877_lchh_trigger" type="collection">
+        <element label="Battery voltage" max_length="40" name="battery_voltage" type="integer"/>
+        <element label="Button" max_length="32" name="button" reference="x_197877_lchh_button" type="reference"/>
+        <element choice="1" label="Click type" max_length="40" name="click_type" type="choice">
+            <choice>
+                <element label="SINGLE" sequence="0" value="SINGLE"/>
+                <element label="DOUBLE" sequence="1" value="DOUBLE"/>
+                <element label="LONG" sequence="2" value="LONG"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="button"/>
+        </index>
+    </element>
+</database>

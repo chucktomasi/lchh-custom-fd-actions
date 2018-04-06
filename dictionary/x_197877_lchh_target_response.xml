@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Target response" max_length="40" name="x_197877_lchh_target_response" type="collection">
+        <element label="Error code" max_length="40" name="error_code" type="string"/>
+        <element label="Error message" max_length="1000" name="error_message" type="string"/>
+        <element label="Response body" max_length="4000" name="response_body" type="string"/>
+        <element label="Target" max_length="32" name="target" reference="x_197877_lchh_target" type="reference"/>
+        <index name="index">
+            <element name="target"/>
+        </index>
+    </element>
+</database>

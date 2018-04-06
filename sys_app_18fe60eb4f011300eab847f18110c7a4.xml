@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_model>none</license_model>
+        <logo/>
+        <menu display_value="LCHH">60fe642f4f011300eab847f18110c72c</menu>
+        <name>LCHH</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_197877_lchh</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_197877_lchh</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 15:51:38</sys_created_on>
+        <sys_id>18fe60eb4f011300eab847f18110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 15:51:38</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_197877_lchh.user" name="x_197877_lchh.user">64fe642f4f011300eab847f18110c72f</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <image_height>200</image_height>
+        <image_width>200</image_width>
+        <size_bytes>1970</size_bytes>
+        <size_compressed>1993</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:57:18</sys_created_on>
+        <sys_id>c6e4b92b4fc11300eab847f18110c7f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 20:57:18</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>18fe60eb4f011300eab847f18110c7a4</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="c6e4b92b4fc11300eab847f18110c7f5">c6e4b92b4fc11300eab847f18110c7f5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:57:18</sys_created_on>
+        <sys_id>cee4b92b4fc11300eab847f18110c7f5</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2644</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="c6e4b92b4fc11300eab847f18110c7f5">c6e4b92b4fc11300eab847f18110c7f5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 20:57:18</sys_created_on>
+        <sys_id>42e4b92b4fc11300eab847f18110c7f6</sys_id>
+    </sys_attachment_doc>
+</record_update>
