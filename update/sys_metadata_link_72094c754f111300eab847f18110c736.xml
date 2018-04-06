@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a1d7bc274f411300eab847f18110c786</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_197877_lchh_button">
+    <x_197877_lchh_button action="INSERT_OR_UPDATE">
+        <name>Kitchen</name>
+        <sn>d1232b00</sn>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 16:31:14</sys_created_on>
+        <sys_id>a1d7bc274f411300eab847f18110c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 16:31:14</sys_updated_on>
+    </x_197877_lchh_button>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 12:52:21</sys_created_on>
+        <sys_id>72094c754f111300eab847f18110c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kitchen</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_metadata_link_72094c754f111300eab847f18110c736</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 12:52:21</sys_updated_on>
+        <tablename>x_197877_lchh_button</tablename>
+    </sys_metadata_link>
+</record_update>

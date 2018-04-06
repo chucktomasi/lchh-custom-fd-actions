@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e3ba7ca74f411300eab847f18110c7d9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_197877_lchh_lookup">
+    <x_197877_lchh_lookup action="INSERT_OR_UPDATE">
+        <condition table="x_197877_lchh_trigger">button=a1d7bc274f411300eab847f18110c786^click_type=DOUBLE^EQ<item display_table="x_197877_lchh_button" display_value="Kitchen" endquery="false" field="button" goto="false" newquery="false" operator="=" or="false" value="a1d7bc274f411300eab847f18110c786"/>
+            <item endquery="false" field="click_type" goto="false" newquery="false" operator="=" or="false" value="DOUBLE"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name>Kitchen Double - Random User</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 16:43:37</sys_created_on>
+        <sys_id>e3ba7ca74f411300eab847f18110c7d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 16:43:37</sys_updated_on>
+        <target display_value="RandomUser">808838274f411300eab847f18110c7a9</target>
+    </x_197877_lchh_lookup>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 12:52:31</sys_created_on>
+        <sys_id>5919c4754f111300eab847f18110c7bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kitchen Double - Random User</sys_name>
+        <sys_package display_value="LCHH" source="x_197877_lchh">18fe60eb4f011300eab847f18110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCHH">18fe60eb4f011300eab847f18110c7a4</sys_scope>
+        <sys_update_name>sys_metadata_link_5919c4754f111300eab847f18110c7bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 12:52:31</sys_updated_on>
+        <tablename>x_197877_lchh_lookup</tablename>
+    </sys_metadata_link>
+</record_update>
